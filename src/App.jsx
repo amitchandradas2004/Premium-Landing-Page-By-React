@@ -1,7 +1,8 @@
+import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <>
-      <h2>thuis</h2>
+      <Navbar></Navbar>
     </>
   );
 }
