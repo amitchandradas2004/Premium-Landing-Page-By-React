@@ -10,6 +10,8 @@
   font-family: "ABeeZee", sans-serif;
   font-style: normal;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 @import "tailwindcss";
 @import "daisyui/daisyui.css";

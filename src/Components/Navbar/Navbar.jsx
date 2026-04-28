@@ -18,10 +18,12 @@ const Navbar = () => {
           <p>About us</p>
         </div>
         <div className="hidden md:inline-block">
-          <button className="btn bg-transparent text-white flex items-center border border-[#8D1EA2] rounded-xl p-2 text-center text-xs md:text-xl">
-            Start Free Trial{" "}
-            <span>
-              <FaAngleRight />
+          <button class="p-0.25 btn border-none bg-linear-to-r from-blue-500 to-purple-500 rounded-xl">
+            <span class="flex items-center block bg-black text-white px-4 py-2 rounded-xl">
+              Start Free Trial{" "}
+              <span>
+                <FaAngleRight />
+              </span>
             </span>
           </button>
         </div>
@@ -84,11 +86,12 @@ const Navbar = () => {
                   <button>About us</button>
                 </a>
                 <a>
-                  {" "}
-                  <button className="btn bg-transparent flex items-center border border-[#8D1EA2] rounded-xl p-2 text-center text-xs md:text-xl text-black">
-                    Start Free Trial{" "}
-                    <span>
-                      <FaAngleRight />
+                  <button class="p-0.25 btn border-none bg-linear-to-r from-blue-500 to-purple-500 rounded-xl">
+                    <span class="flex items-center block bg-black text-white px-4 py-2 rounded-xl">
+                      Start Free Trial{" "}
+                      <span>
+                        <FaAngleRight />
+                      </span>
                     </span>
                   </button>
                 </a>
