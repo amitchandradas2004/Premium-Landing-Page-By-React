@@ -7,12 +7,12 @@ const Banner = () => {
   return (
     <div className="bg-black">
       {/* glowing */}
-      <div class="relative  text-white items-center justify-center overflow-hidden py-10 container mx-auto">
+      <div className="relative  text-white items-center justify-center overflow-hidden py-10 container mx-auto">
         {/* <!-- Glow layer --> */}
-        <div class="absolute w-100 h-150 bg-purple-700 rounded-full blur-[120px] opacity-40 top-20 left-1/3"></div>
+        <div className="absolute w-100 h-150 bg-purple-700 rounded-full blur-[120px] opacity-40 top-20 left-1/3"></div>
         {/* <!-- Content --> */}
-        <div class="relative z-10 text-center space-y-8 md:space-y-4 px-2 md:px-0">
-          <button class="p-0.25 border-none bg-linear-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
+        <div className="relative z-10 text-center space-y-8 md:space-y-4 px-2 md:px-0">
+          <button className="p-0.25 border-none bg-linear-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
             <span class="flex items-center flex bg-black text-white px-5 py-1 rounded-full abeezee transition-all duration-300 group-hover:bg-[#22132a]">
               Secure your data{" "}
             </span>
@@ -30,12 +30,12 @@ const Banner = () => {
             The next-level in privacy protection for online and travel.
           </p>
           <div className="space-x-2">
-            <button class="group relative inline-flex items-center justify-center p-0.25 rounded-xl bg-linear-to-r from-blue-500 to-pink-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
-              <span class="px-6 py-2 rounded-xl bg-[#1a0f1f] text-white font-medium transition-all duration-300 group-hover:bg-[#22132a]">
+            <button className="group relative inline-flex items-center justify-center p-0.25 rounded-xl bg-linear-to-r from-blue-500 to-pink-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
+              <span className="px-6 py-2 rounded-xl bg-[#1a0f1f] text-white font-medium transition-all duration-300 group-hover:bg-[#22132a]">
                 Start free trial
               </span>
             </button>
-            <button class="px-6 py-2 rounded-xl text-white font-medium  bg-linear-to-r from-[#090EDB] to-[#DA24BB] transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.8)]">
+            <button className="px-6 py-2 rounded-xl text-white font-medium  bg-linear-to-r from-[#090EDB] to-[#DA24BB] transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.8)]">
               Use it Now
             </button>
           </div>
