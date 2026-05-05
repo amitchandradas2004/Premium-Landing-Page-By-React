@@ -1,3 +1,5 @@
+import Check from "../../assets/check.png";
+import Image1 from "../../assets/image1.png";
 const Feature = () => {
   return (
     <div className="bg-black">
@@ -15,7 +17,7 @@ const Feature = () => {
             </div>
             <h3 className="font-bold text-5xl text-[#CAD1E9]">
               Why
-              <span className="bg-linear-to-t from-[#5e76ed] via-[#4349FF] to-[#4349FF] bg-clip-text text-transparent px-3">
+              <span className="bg-linear-to-t from-[#5e76ed] via-[#E73DC4] to-[#E73DC4] bg-clip-text text-transparent px-3">
                 choose
               </span>
               us
@@ -25,7 +27,49 @@ const Feature = () => {
               packaged service
             </p>
           </div>
-          
+          <div className="py-10">
+            <div className="1 flex flex-col md:flex-row justify-between items-center gap-5">
+              <div className="left w-full md:w-2/3">
+                <h3 className="text-[#CAD1E9] text-4xl font-bold">
+                  Protect Personal information
+                </h3>
+                <div className="space-y-3 mt-3">
+                  <div className="flex items-center AbeeZee gap-3">
+                    <img src={Check} className="w-5" />
+                    <p className="text-[#CAC6DD] text-xl">
+                      The first step involves identifying all places where your
+                      personal information might be present.
+                    </p>
+                  </div>
+                  <div className="flex items-center AbeeZee gap-3">
+                    <img src={Check} className="w-5" />
+                    <p className="text-[#CAC6DD] text-xl">
+                      Once you've identified where your information is held, the
+                      next step is to contact the administrators of this
+                      platform
+                    </p>
+                  </div>
+                  <div className="flex items-center AbeeZee gap-3">
+                    <img src={Check} className="w-5" />
+                    <p className="text-[#CAC6DD] text-xl">
+                      Removing personal information is not a one-time task but
+                      requires ongoing vigilance.
+                    </p>
+                  </div>
+                  <div className="flex items-center AbeeZee gap-3">
+                    <img src={Check} className="w-5" />
+                    <p className="text-[#CAC6DD] text-xl">
+                      There are professional services and tools available that
+                      specialise in personal information removal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="right">
+                <img src={Image1} className="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

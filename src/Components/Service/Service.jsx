@@ -14,7 +14,7 @@ const Service = () => {
           </div>
           <h3 className="font-bold text-5xl text-[#CAD1E9]">
             See our services for <br /> secure your{" "}
-            <span className="bg-linear-to-t from-[#5e76ed] via-[#4349FF] to-[#4349FF] bg-clip-text text-transparent">
+            <span className="bg-linear-to-t from-[#5e76ed]via-[#E73DC4] to-[#E73DC4] bg-clip-text text-transparent">
               Data
             </span>
           </h3>
