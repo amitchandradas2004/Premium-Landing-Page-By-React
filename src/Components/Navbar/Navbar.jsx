@@ -10,7 +10,7 @@ const Navbar = () => {
             IdentityHub
           </h2>
         </div>
-        <div className="abeezee flex md:inline-flex hidden items-center gap-3 opacity-80 text-xs">
+        <div className="flex md:inline-flex hidden items-center gap-3 opacity-80 text-xs">
           <p>Services</p>
           <p>Features</p>
           <p>Pricing</p>

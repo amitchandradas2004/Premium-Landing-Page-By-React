@@ -15,7 +15,7 @@ const Feature = () => {
           {/* Content */}
           <div className="flex flex-col justify-center items-center space-y-3 text-center">
             <div class="p-0.25 border-none bg-linear-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)] w-30 mx-auto select-none">
-              <span class="items-center flex justify-center bg-black text-white px-5 py-1 rounded-full abeezee transition-all duration-300 group-hover:bg-[#22132a]">
+              <span class="items-center flex justify-center bg-black text-white px-5 py-1 rounded-full  transition-all duration-300 group-hover:bg-[#22132a]">
                 Feature{" "}
               </span>
             </div>
@@ -38,14 +38,14 @@ const Feature = () => {
                   Protect Personal information
                 </h3>
                 <div className="space-y-3 mt-3">
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center  gap-3">
                     <img src={Check1} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       The first step involves identifying all places where your
                       personal information might be present.
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center  gap-3">
                     <img src={Check1} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       Once you've identified where your information is held, the
@@ -53,14 +53,14 @@ const Feature = () => {
                       platform
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check1} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       Removing personal information is not a one-time task but
                       requires ongoing vigilance.
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check1} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       There are professional services and tools available that
@@ -79,14 +79,14 @@ const Feature = () => {
                   Detailed Reporting
                 </h3>
                 <div className="space-y-3 mt-3">
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check2} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       The first step involves identifying all places where your
                       personal information might be present.
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check2} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       Once you've identified where your information is held, the
@@ -94,14 +94,14 @@ const Feature = () => {
                       platform
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check2} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       Removing personal information is not a one-time task but
                       requires ongoing vigilance.
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check2} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       There are professional services and tools available that
@@ -121,14 +121,14 @@ const Feature = () => {
                   Secure All Data
                 </h3>
                 <div className="space-y-3 mt-3">
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check3} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       The first step involves identifying all places where your
                       personal information might be present.
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check3} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       Once you've identified where your information is held, the
@@ -136,14 +136,14 @@ const Feature = () => {
                       platform
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check3} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       Removing personal information is not a one-time task but
                       requires ongoing vigilance.
                     </p>
                   </div>
-                  <div className="flex items-center AbeeZee gap-3">
+                  <div className="flex items-center gap-3">
                     <img src={Check3} className="w-5" />
                     <p className="text-[#CAC6DD] text-xl">
                       There are professional services and tools available that

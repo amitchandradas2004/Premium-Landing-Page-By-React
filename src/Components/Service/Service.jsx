@@ -8,7 +8,7 @@ const Service = () => {
       <div className="container mx-auto  py-10 px-2 md:px-0">
         <div className="text-center space-y-4">
           <div class="p-0.25 border-none bg-linear-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)] w-30 mx-auto select-none">
-            <span class="items-center flex justify-center bg-black text-white px-5 py-1 rounded-full abeezee transition-all duration-300 group-hover:bg-[#22132a]">
+            <span class="items-center flex justify-center bg-black text-white px-5 py-1 rounded-full transition-all duration-300 group-hover:bg-[#22132a]">
               Services{" "}
             </span>
           </div>

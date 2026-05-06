@@ -13,11 +13,11 @@ const Banner = () => {
         {/* <!-- Content --> */}
         <div className="relative z-10 text-center space-y-8 md:space-y-4 px-2 md:px-0">
           <button className="p-0.25 border-none bg-linear-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
-            <span class="flex items-center flex bg-black text-white px-5 py-1 rounded-full abeezee transition-all duration-300 group-hover:bg-[#22132a]">
+            <span class="flex items-center flex bg-black text-white px-5 py-1 rounded-full transition-all duration-300 group-hover:bg-[#22132a]">
               Secure your data{" "}
             </span>
           </button>
-          <h3 className="abeezee text-6xl font-bold ">
+          <h3 className="text-6xl font-bold ">
             <span className="bg-linear-to-t from-[#F33CC0] to-[#4349FF] bg-clip-text text-transparent">
               Identity-hub is a better way to <br />
             </span>{" "}
@@ -25,7 +25,7 @@ const Banner = () => {
               achieve privacy
             </span>
           </h3>
-          <p className="abeezee text-2xl font-medium opacity-80">
+          <p className="text-2xl font-medium opacity-80">
             Make your data invisible by generating unlimited identities. <br />
             The next-level in privacy protection for online and travel.
           </p>
