@@ -24,82 +24,127 @@ const Pricing = () => {
             </h3>
           </div>
           {/* Pricing Card */}
-          <div className="grid grid-cols-3 gap-5 py-20 items-end mt-10">
-            <div className="card-1 border border-gray-800 py-10 px-5 backdrop-blur-2xl space-y-5 rounded-3xl h-full">
-              <h4 className="text-5xl font-bold">Basic</h4>
-              <p className="text-[#CAC6DD]  text-xl">
-                AI chatbot, personalized recommendations
-              </p>
-              <h3 className="text-6xl font-bold">
-                $<span className="text-8xl">0</span>
-              </h3>
-              <button className="group w-full inline-flex items-center justify-center p-0.25 rounded-xl bg-linear-to-r from-blue-500 to-pink-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
-                <span className="px-6 py-2 rounded-xl bg-[#1a0f1f] text-white font-medium transition-all duration-300 group-hover:bg-[#22132a] w-full">
-                  Get Started
-                </span>
-              </button>
-              <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <img src={MarkImage} className="w-6" />
-                  <h4 className="text-[#CAC6DD] text-xl">Type of threat</h4>
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-5 py-20 items-end mt--10 lg:mt-20">
+              <div className="card-1 border border-gray-800 py-10 px-5 backdrop-blur-2xl space-y-5 rounded-3xl h-full mb-20 md:mb-0 mt-20 md:mt-0">
+                <h4 className="text-5xl font-bold">Basic</h4>
+                <p className="text-[#CAC6DD]  text-xl">
+                  AI chatbot, personalized recommendations
+                </p>
+                <h3 className="text-6xl font-bold">
+                  $<span className="text-8xl">0</span>
+                </h3>
+                <button className="group w-full inline-flex items-center justify-center p-0.25 rounded-xl bg-linear-to-r from-blue-500 to-pink-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
+                  <span className="px-6 py-2 rounded-xl bg-[#1a0f1f] text-white font-medium transition-all duration-300 group-hover:bg-[#22132a] w-full">
+                    Get Started
+                  </span>
+                </button>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Type of threat</h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Online presence</h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">
+                      Access to all modules
+                    </h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Notability</h4>
+                  </div>
                 </div>
-                <hr />
-                <div className="flex items-center gap-2">
-                  <img src={MarkImage} className="w-6" />
-                  <h4 className="text-[#CAC6DD] text-xl">Online presence</h4>
+              </div>
+              <div className="card-2 border border-gray-800 py-10 px-5  backdrop-blur-xl space-y-8 rounded-3xl lg:-translate-y-2 lg:scale-105 h-[110%]">
+                <h4 className="text-5xl font-bold">Premium</h4>
+                <p className="text-[#CAC6DD]  text-xl">
+                  Advanced AI chatbot, priority support, analytics dashboard
+                </p>
+                <h3 className="text-6xl font-bold">
+                  $ <span className="text-7xl">9.99</span>
+                </h3>
+                <button className="group w-full inline-flex items-center justify-center p-0.25 rounded-xl bg-linear-to-r from-blue-500 to-pink-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
+                  <span className="px-6 py-2 rounded-xl bg-[#1a0f1f] text-white font-medium transition-all duration-300 group-hover:bg-[#22132a] w-full bg-linear-to-r from-[#090EDB] to-[#DA24BB]">
+                    Get Started
+                  </span>
+                </button>
+                <div className="space-y-4">
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Type of threat</h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Online presence</h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">
+                      Access to all modules
+                    </h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Notability</h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">
+                      Optimize existing websites
+                    </h4>
+                  </div>
                 </div>
-                <hr />
-                <div className="flex items-center gap-2">
-                  <img src={MarkImage} className="w-6" />
-                  <h4 className="text-[#CAC6DD] text-xl">
-                    Access to all modules
-                  </h4>
-                </div>
-                <hr />
-                <div className="flex items-center gap-2">
-                  <img src={MarkImage} className="w-6" />
-                  <h4 className="text-[#CAC6DD] text-xl">Notability</h4>
+              </div>
+              <div className="card-3 border border-gray-800 py-10 px-5 backdrop-blur-2xl space-y-5 rounded-3xl h-full">
+                <h4 className="text-5xl font-bold">Enterprise</h4>
+                <p className="text-[#CAC6DD]  text-xl">
+                  AI chatbot, personalized recommendations
+                </p>
+                <h3 className="text-6xl font-bold">
+                  $ <span className="text-8xl">20.99</span>
+                </h3>
+                <button className="group w-full inline-flex items-center justify-center p-0.25 rounded-xl bg-linear-to-r from-blue-500 to-pink-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
+                  <span className="px-6 py-2 rounded-xl bg-[#1a0f1f] text-white font-medium transition-all duration-300 group-hover:bg-[#22132a] w-full">
+                    Get Started
+                  </span>
+                </button>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Type of threat</h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Online presence</h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">
+                      Access to all modules
+                    </h4>
+                  </div>
+                  <hr />
+                  <div className="flex items-center gap-2">
+                    <img src={MarkImage} className="w-6" />
+                    <h4 className="text-[#CAC6DD] text-xl">Notability</h4>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="card-2 border border-gray-800 py-10 px-5  backdrop-blur-xl space-y-8 rounded-3xl -translate-y-1 h-[110%]">
-              <h4 className="text-5xl font-bold">Premium</h4>
-              <p className="text-[#CAC6DD]  text-xl">
-                Advanced AI chatbot, priority support, analytics dashboard
-              </p>
-              <h3 className="text-6xl font-bold">
-                $ <span className="text-7xl">9.99</span>
-              </h3>
-              <button className="group w-full inline-flex items-center justify-center p-0.25 rounded-xl bg-linear-to-r from-blue-500 to-pink-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
-                <span className="px-6 py-2 rounded-xl bg-[#1a0f1f] text-white font-medium transition-all duration-300 group-hover:bg-[#22132a] w-full bg-linear-to-r from-[#090EDB] to-[#DA24BB]">
-                  Get Started
-                </span>
-              </button>
-              <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <img src={MarkImage} className="w-6" />
-                  <h4 className="text-[#CAC6DD] text-xl">Type of threat</h4>
-                </div>
-                <hr />
-                <div className="flex items-center gap-2">
-                  <img src={MarkImage} className="w-6" />
-                  <h4 className="text-[#CAC6DD] text-xl">Online presence</h4>
-                </div>
-                <hr />
-                <div className="flex items-center gap-2">
-                  <img src={MarkImage} className="w-6" />
-                  <h4 className="text-[#CAC6DD] text-xl">
-                    Access to all modules
-                  </h4>
-                </div>
-                <hr />
-                <div className="flex items-center gap-2">
-                  <img src={MarkImage} className="w-6" />
-                  <h4 className="text-[#CAC6DD] text-xl">Notability</h4>
-                </div>
-              </div>
-            </div>
-          
           </div>
         </div>
       </div>
