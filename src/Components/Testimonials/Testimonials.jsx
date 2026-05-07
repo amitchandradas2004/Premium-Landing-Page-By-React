@@ -1,5 +1,5 @@
 // import React from 'react';
-
+import BoyImage from "../../assets/boyimage.png";
 const Testimonials = () => {
   return (
     <div className="bg-black">
@@ -22,6 +22,37 @@ const Testimonials = () => {
               </span>
               about us
             </h3>
+          </div>
+
+          <div
+            className=" bg-white/2
+              backdrop-blur-md
+              border border-white/10 rounded-2xl p-5 mt-10"
+          >
+            <div
+              className=" bg-white/1 
+              backdrop-blur-md
+              border border-white/10 rounded-2xl p-5"
+            >
+              <div className="flex items-center gap-2">
+                <img src={BoyImage} className="w-15" />
+                <div className="font-bold">
+                  <h3 className="text-2xl">Amit Das</h3>
+                  <h3 className="text-[#9D9BA6]">Student . 1 day ago</h3>
+                </div>
+              </div>
+              <div className="pl-15 pt-5">
+                <p className="text-[#9D9BA6]">
+                  Forget about spam, advertising mailings, hacking and attacking
+                  robots. Keep your real mailbox clean and secure. Temp Mail
+                  provides temporary, secure, anonymous, free, disposable email
+                  address. Stalkers and disgruntled acquaintances use the
+                  Internet to find addresses, phone numbers and other personal
+                  details about their targets. Identity thieves use personal
+                  information numbers and other personal details.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

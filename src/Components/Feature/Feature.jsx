@@ -33,8 +33,8 @@ const Feature = () => {
           </div>
           <div className="py-10">
             <div
-              className="1 flex flex-col md:flex-row justify-between items-center gap-5 bg-white/10 
-              backdrop-blur-sm
+              className="1 flex flex-col md:flex-row justify-between items-center gap-5 bg-white/5 
+              backdrop-blur-md
               border border-white/20
               shadow-xl rounded-3xl  py-10 px-5"
             >
@@ -79,8 +79,8 @@ const Feature = () => {
               </div>
             </div>
             <div
-              className="1 flex flex-col md:flex-row justify-between items-center gap-5 my-10  bg-white/10 
-              backdrop-blur-sm
+              className="1 flex flex-col md:flex-row justify-between items-center gap-5 my-10  bg-white/5 
+              backdrop-blur-md
               border border-white/20 rounded-3xl py-10 px-5"
             >
               <div className="left w-full md:w-2/3">
@@ -125,8 +125,8 @@ const Feature = () => {
             </div>
 
             <div
-              className="1 flex flex-col md:flex-row justify-between items-center gap-5 my-10  bg-white/10 
-              backdrop-blur-sm
+              className="1 flex flex-col md:flex-row justify-between items-center gap-5 my-10  bg-white/5 
+              backdrop-blur-md
               border border-white/20 rounded-3xl py-10 px-5"
             >
               <div className="left w-full md:w-2/3">
