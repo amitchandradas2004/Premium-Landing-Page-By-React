@@ -32,7 +32,12 @@ const Feature = () => {
             </p>
           </div>
           <div className="py-10">
-            <div className="1 flex flex-col md:flex-row justify-between items-center gap-5 bg-gray-900 rounded-3xl  py-10 px-5">
+            <div
+              className="1 flex flex-col md:flex-row justify-between items-center gap-5 bg-white/10 
+              backdrop-blur-sm
+              border border-white/20
+              shadow-xl rounded-3xl  py-10 px-5"
+            >
               <div className="left w-full md:w-2/3">
                 <h3 className="text-[#1E21E9] text-4xl font-bold">
                   Protect Personal information
@@ -73,7 +78,11 @@ const Feature = () => {
                 <img src={Image1} className="" />
               </div>
             </div>
-            <div className="1 flex flex-col md:flex-row justify-between items-center gap-5 my-10 bg-gray-900 rounded-3xl py-10 px-5">
+            <div
+              className="1 flex flex-col md:flex-row justify-between items-center gap-5 my-10  bg-white/10 
+              backdrop-blur-sm
+              border border-white/20 rounded-3xl py-10 px-5"
+            >
               <div className="left w-full md:w-2/3">
                 <h3 className="text-[#7950FF] text-4xl font-bold">
                   Detailed Reporting
@@ -115,7 +124,11 @@ const Feature = () => {
               </div>
             </div>
 
-            <div className="1 flex flex-col md:flex-row justify-between items-center gap-5 my-10 bg-gray-900 rounded-3xl py-10 px-5">
+            <div
+              className="1 flex flex-col md:flex-row justify-between items-center gap-5 my-10  bg-white/10 
+              backdrop-blur-sm
+              border border-white/20 rounded-3xl py-10 px-5"
+            >
               <div className="left w-full md:w-2/3">
                 <h3 className="text-[#098709] text-4xl font-bold">
                   Secure All Data

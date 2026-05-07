@@ -26,7 +26,11 @@ const Pricing = () => {
           {/* Pricing Card */}
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-5 py-20 items-end mt--10 lg:mt-20">
-              <div className="card-1 border border-gray-800 py-10 px-5 backdrop-blur-2xl space-y-5 rounded-3xl h-full mb-20 md:mb-0 mt-20 md:mt-0">
+              <div
+                className="card-1 bg-white/10 
+              backdrop-blur-sm
+              border border-white/20 py-10 px-5  space-y-5 rounded-3xl h-full mb-20 md:mb-0 mt-20 md:mt-0"
+              >
                 <h4 className="text-5xl font-bold">Basic</h4>
                 <p className="text-[#CAC6DD]  text-xl">
                   AI chatbot, personalized recommendations
@@ -63,7 +67,11 @@ const Pricing = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-2 border border-gray-800 py-10 px-5  backdrop-blur-xl space-y-8 rounded-3xl lg:-translate-y-2 lg:scale-105 h-[110%]">
+              <div
+                className="card-2  py-10 px-5  bg-white/10 
+              backdrop-blur-sm
+              border border-white/20 space-y-8 rounded-3xl lg:-translate-y-2 lg:scale-105 h-[110%]"
+              >
                 <h4 className="text-5xl font-bold">Premium</h4>
                 <p className="text-[#CAC6DD]  text-xl">
                   Advanced AI chatbot, priority support, analytics dashboard
@@ -107,7 +115,11 @@ const Pricing = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-3 border border-gray-800 py-10 px-5 backdrop-blur-2xl space-y-5 rounded-3xl h-full">
+              <div
+                className="card-3  py-10 px-5  bg-white/10 
+              backdrop-blur-sm
+              border border-white/20 space-y-5 rounded-3xl h-full"
+              >
                 <h4 className="text-5xl font-bold">Enterprise</h4>
                 <p className="text-[#CAC6DD]  text-xl">
                   AI chatbot, personalized recommendations
