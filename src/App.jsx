@@ -1,5 +1,6 @@
 import Banner from "./Components/Banner/Banner";
 import Feature from "./Components/Feature/Feature";
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import Pricing from "./Components/Pricing/Pricing";
 import Service from "./Components/Service/Service";
@@ -13,6 +14,7 @@ function App() {
       <Feature></Feature>
       <Pricing></Pricing>
       <Testimonials></Testimonials>
+      <Footer></Footer>
     </>
   );
 }

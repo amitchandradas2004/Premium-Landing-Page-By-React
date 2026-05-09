@@ -1,0 +1,35 @@
+const Footer = () => {
+  return (
+    <div className="bg-black">
+      <div className="container mx-auto px-2 md:px-0">
+        {/* glowing */}
+        <div className="relative  text-white items-center justify-center overflow-hidden py-10 container mx-auto">
+          {/* <!-- Glow layer --> */}
+          <div className="absolute w-100 h-150 bg-purple-700 rounded-full blur-[120px] opacity-40 top-20 left-1/3"></div>
+          {/* Content */}
+          <div className="flex flex-col justify-center items-center space-y-3 text-center">
+            <h3 className="font-bold text-5xl text-[#CAD1E9]">
+              Be part of the future of
+              <span className="bg-linear-to-t from-[#5e76ed] via-[#E73DC4] to-[#E73DC4] bg-clip-text text-transparent px-3">
+                IdentityHub
+              </span>
+            </h3>
+            <p className="text-[#CAC6DD] text-xl">
+              Unleash the power of AI within Brainwave. Upgrade your <br />
+              productivity with Brainwave, the open AI chat app.
+            </p>
+
+            <button className="group relative inline-flex items-center justify-center p-0.25 rounded-xl bg-linear-to-r from-blue-500 to-pink-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.9)]">
+              <span className="px-6 py-2 rounded-xl bg-[#1a0f1f] text-white font-medium transition-all duration-300 group-hover:bg-[#22132a]">
+                {" "}
+                Start free trial
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
