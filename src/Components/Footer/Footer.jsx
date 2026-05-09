@@ -1,3 +1,9 @@
+import {
+  FaFacebook,
+  FaInstagramSquare,
+  FaTelegram,
+  FaTwitter,
+} from "react-icons/fa";
 import Logo from "../../assets/Vector - 0.png";
 
 const Footer = () => {
@@ -28,7 +34,7 @@ const Footer = () => {
               </span>
             </button>
           </div>
-          <div className="flex justify-between items-center py-5">
+          <div className="flex flex-col md:flex-row justify-between items-center py-5 space-y-4">
             <div className="flex items-center gap-2">
               <img src={Logo} />
               <h2 className="text-xl md:text-3xl lg:text-4xl source font-bold">
@@ -49,6 +55,25 @@ const Footer = () => {
             </div>
           </div>
           <hr />
+          <div className="flex flex-col md:flex-row items-center justify-between mt-2 space-y-4">
+            <span>
+              <p>© identityhub 2024. All rights reserved</p>
+            </span>
+            <div className="flex items-center gap-5">
+              <span className=" p-3 rounded-full bg-gray-900">
+                <FaTwitter />
+              </span>
+              <span className="  p-3 rounded-full   bg-gray-900">
+                <FaInstagramSquare />
+              </span>
+              <span className="  p-3 rounded-full  bg-gray-900">
+                <FaTelegram />
+              </span>
+              <span className="  p-3 rounded-full bg-gray-900">
+                <FaFacebook />
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
