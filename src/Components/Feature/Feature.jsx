@@ -6,7 +6,7 @@ import Image2 from "../../assets/image2.png";
 import Image3 from "../../assets/image3.png";
 const Feature = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black" id="feature">
       <div className="container mx-auto px-2 md:px-0">
         {/* glowing */}
         <div className="relative  text-white items-center justify-center overflow-hidden py-10 container mx-auto">

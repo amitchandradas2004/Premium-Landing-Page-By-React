@@ -1,3 +1,5 @@
+import Logo from "../../assets/Vector - 0.png";
+
 const Footer = () => {
   return (
     <div className="bg-black">
@@ -26,6 +28,27 @@ const Footer = () => {
               </span>
             </button>
           </div>
+          <div className="flex justify-between items-center py-5">
+            <div className="flex items-center gap-2">
+              <img src={Logo} />
+              <h2 className="text-xl md:text-3xl lg:text-4xl source font-bold">
+                IdentityHub
+              </h2>
+            </div>
+            <div className="flex items-center gap-5 text-xl">
+              <a href="#feature">features</a>
+              <a href="#">
+                <p>Services</p>
+              </a>
+              <a href="#">
+                <p>pricing</p>
+              </a>
+              <a href="#">
+                <p>how to use</p>
+              </a>
+            </div>
+          </div>
+          <hr />
         </div>
       </div>
     </div>
